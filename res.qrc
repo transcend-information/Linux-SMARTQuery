@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/lauout">
+        <file>Image/redbar.png</file>
+        <file>Image/about.png</file>
+        <file>Image/about_hover.png</file>
+        <file>Image/bg.png</file>
+        <file>Image/button.png</file>
+        <file>Image/close.png</file>
+        <file>Image/close_hover.png</file>
+        <file>Image/minimize.png</file>
+        <file>Image/minimize_hover.png</file>
+        <file>Image/refresh.png</file>
+        <file>Image/refresh_hover.png</file>
+    </qresource>
+</RCC>
