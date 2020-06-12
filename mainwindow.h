@@ -8,8 +8,8 @@
 #include <QSettings>
 #include <QTimer>
 
-#define TITLE "PCIe Info Tool"
-#define VERSION "V0.2"
+#define TITLE "Linux_SMARTQuery"
+#define VERSION "V1.0"
 #define RETINA_WIDTH 2230
 #define RETINA_HEIGHT 1238
 
@@ -62,18 +62,20 @@ public:
     void UI_init();
     void scanDevice();
     void set_tabview();
+    void addProduct(QStandardItemModel *UImodel,QString path, QString model, QString fwver, QString SN, QByteArray drive_type,int cnt);
     static void* fw_test(void*);
 
     double GetDeviceCapacity( QByteArray device_str_byte);
     QStringList ToResList(QString res);
+    static QStringList get_SMART_Data_ATA(const char * devName);
     static QStringList get_SMART_Data_NVMe(const char * devName);
-    static QStringList get_Identify_Data_NVMe(const char * devName);
+    static QStringList  get_SMART_Attributes();
 
 private slots:    
 
     void ontableclicked(QModelIndex index);
     void fw_test_ret(QStringList smartList);
-    void on_btn_Update_clicked();
+    void on_btn_Smart_clicked();
     void on_btn_re_clicked();
     void on_btn_info_clicked();
     void on_btn_min_clicked();

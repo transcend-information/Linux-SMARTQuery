@@ -62,7 +62,7 @@
      <string notr="true"/>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_Update">
+   <widget class="QPushButton" name="btn_Smart">
     <property name="geometry">
      <rect>
       <x>330</x>

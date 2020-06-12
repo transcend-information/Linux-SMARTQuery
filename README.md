@@ -1,8 +1,8 @@
-# Linux-NVMeSMARTQuery
+# Linux-SMARTQuery
 
 Introduction
 -------------------------
-This sample code demonstrates how to extract NVMe SMART / Health Information Log from the an NVMe solid state drives (SSD) in Ubuntu.
+This sample code demonstrates how to extract  SMART / Health Information Log from the a solid state drives (SSD) in Ubuntu.
 The Get Log Page command be used to retrieve the following logs:
 
 02h - SMART / health information
@@ -17,4 +17,5 @@ Screenshot
 -------------------------
 ![Main](https://github.com/transcend-information/Linux-NVMeSMARTQuery/blob/master/main.png)
 ![SMART](https://github.com/transcend-information/Linux-NVMeSMARTQuery/blob/master/smartinfo.png)
+![SMART](https://github.com/transcend-information/Linux-NVMeSMARTQuery/blob/master/smartinfo_1.png)
 
